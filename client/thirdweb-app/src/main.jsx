@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ThirdwebProvider desiredChainId={ChainId.Goerli}> 
     <Router>
-      <StateContextProvider>
+      {/* <StateContextProvider> */}
         <App />
-      </StateContextProvider>
+      {/* </StateContextProvider> */}
     </Router>
   </ThirdwebProvider> 
 )
